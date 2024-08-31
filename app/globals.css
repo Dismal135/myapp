@@ -17,7 +17,7 @@
 }
 
 .none {
-    left: -260px;
+    left: -320px;
     width: 35%;
     transition: 1s;
 }
@@ -45,4 +45,11 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
 }
