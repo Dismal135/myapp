@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-icon {
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+
+.menu > span {
+    display: block;
+    color: white;
+    font-weight: lighter;
+    width: 100%;
+    padding: 10px;
+}
+
+.none {
+    left: -260px;
+    width: 35%;
+    transition: 1s;
+}
+
+.display {
+    left: 0;
+    width: 35%;
+    transition: 1s;
+}
+
+.menu {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #171a21;
+    text-align: left;
+}
+
+body {
+    background-color: rgba(43, 52, 68);
+}
+
+header {
+    background-color: #171a21;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
